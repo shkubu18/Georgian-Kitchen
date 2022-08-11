@@ -1,0 +1,116 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1597393647616-d45e1078312b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/**** Header Style  ****/
+
+header {
+   background: linear-gradient(45deg, rgba(248, 172, 32, 0.884), rgba(255, 255, 0, 0.548));
+}
+
+/**** And Off  Header Style ****/
+
+
+/**** Footer Style  ****/
+
+footer {
+   background: linear-gradient(45deg, rgba(0, 0, 0, 0.671), rgba(255, 255, 0, 0.74));
+}
+
+/**** And Off Footer Style  ****/
+
+
+/***** Food List Container Style *****/
+
+ .food-list-container {
+    min-height: calc(100vh - 130px - 100px);
+    background-color: rgba(0, 0, 0, 0.603);
+ }
+
+ .food-lists {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 50px;
+    padding: 100px 0px 100px 50px;
+ }
+
+/***** And Off Food List Container Style *****/
+
+
+ /******* Food Cards Style  *******/
+
+ .card {
+    background-color: rgba(24, 23, 22, 0.541);
+    width: 260px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(247, 246, 245, 0.685);
+    
+ }
+
+ .card.hovered {
+   animation: changecolor 5s;
+   background-color: rgba(248, 172, 32, 0.884);
+   cursor: pointer;
+ }
+
+ .card.unhovered {
+   animation: initialcolor 5s;
+   background-color: rgba(24, 23, 22, 0.541);
+ }
+
+ @keyframes changecolor {
+   0% {background-color: rgba(24, 23, 22, 0.541)}
+   50% {background-color: rgba(248, 172, 32, 0.884);}
+ }
+
+ @keyframes initialcolor {
+   0% {background-color: rgba(248, 172, 32, 0.884)}
+   50% {background-color: rgba(24, 23, 22, 0.541);}
+ }
+
+ .card-body img {
+    width: 100%;
+    border-radius: 10px;
+    height: 166px;
+    object-fit: cover;
+ }
+
+ .card-info h1 {
+    color: white;
+    margin-top: 0px;
+    padding-left: 5px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+ }
+
+
+.food-detail-link {
+    display: flex;
+    justify-content: center;
+ }
+
+ .food-detail-link button {
+   color: white;
+   font-weight: 500;
+   background: linear-gradient(45deg, rgba(241, 223, 66, 0.616), rgba(241, 245, 4, 0.877));
+   font-size: 18px;
+   padding: 3px 10px;
+   border-radius: 5px;  
+   box-shadow: 2px 2px 5px 2px rgba(15, 15, 15, 0.884);
+   cursor: pointer;
+   font-family: 'Love Ya Like A Sister', cursive;
+   
+ }
+
+ .food-detail-link button.clicked {
+   transform: rotate(720deg) rotateY(0);
+   transition: all 1s;
+ }
+
+  /******* And Off Food Cards Style  *******/
+
+  

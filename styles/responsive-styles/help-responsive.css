@@ -1,0 +1,53 @@
+@media screen and (max-width: 550px) {
+    .footer-container p {
+        height: 100px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mobile-menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    header nav.active a:hover {
+        color: rgb(253, 182, 49);
+    }
+
+    header>.header-container {
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    header nav.active {
+        display: flex;
+        position: absolute;
+        background: linear-gradient(45deg, black, rgb(63, 63, 62));
+        width: 100%;
+        top: 0;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+
+    header nav.active a {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        border-bottom: 1px solid white;
+        margin: 0;
+        font-size: 28px;
+        color: white;
+    }
+
+
+}

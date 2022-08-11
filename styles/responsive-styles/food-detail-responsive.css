@@ -1,0 +1,273 @@
+@media screen and (max-width: 1669px) {
+    .food-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-img-container img {
+        width: 850px;
+        margin-bottom: 50px;
+    }
+
+    .food-info-container {
+        height: initial;
+    }
+
+    .food-detail-info {
+        width: 850px;
+    }
+
+    .go-back {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .food-info {
+        padding: 0;
+        padding-block: 50px;
+    }
+
+    .food-img-container img {
+        width: 650px;
+        margin-bottom: 50px;
+    }
+
+    .food-detail-info {
+        width: 650px;
+        border-radius: 10px;
+    }
+
+    .food-info-container h1 {
+        font-size: 30px;
+    }
+
+    .food-info-container p {
+        font-size: 15px;
+    }
+
+    .food-info-container {
+        height: initial;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .food-img-container img {
+        width: 450px;
+        margin-bottom: 50px;
+    }
+
+    .food-detail-info {
+        width: 450px;
+        height: 450px;
+        border-radius: 10px;
+    }
+
+    .for-more-info {
+        margin-top: 45px;
+    }
+
+    .for-more-info.khachapuri,
+    .for-more-info.acharuli-lobiani {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .food-img-container img {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .food-detail-info {
+        width: 350px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    .for-more-info {
+        margin-top: 65px;
+    }
+
+    .for-more-info.khinkali,
+    .for-more-info.chicken {
+        margin-top: 30px;
+    }
+
+    .for-more-info.acharuli-lobiani {
+        margin-top: 70px;
+    }
+
+    .for-more-info.khachapuri {
+        margin-top: 30px;
+    }
+
+    .for-more-info img {
+        display: none;
+    }
+
+    .for-more-info button {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .footer-container p {
+        height: 100px;
+        overflow: scroll;
+    }
+
+    .mobile-menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+
+    header>.header-container {
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    header nav.active {
+        display: flex;
+        position: absolute;
+        background: linear-gradient(45deg, black, rgb(63, 63, 62));
+        width: 100%;
+        top: 0;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+
+    header nav.active a {
+        display: block;
+        text-align: center;
+        padding: 50px;
+        border-bottom: 1px solid white;
+        margin: 0;
+        font-size: 35px;
+        color: white;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .food-img-container img {
+        width: 250px;
+        margin-bottom: 50px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    .food-detail-info h1 {
+        font-size: 25px;
+    }
+
+    .food-detail-info p {
+        font-size: 15px;
+    }
+
+    .food-detail-info {
+        width: 250px;
+        height: 600px;
+        border-radius: 10px;
+    }
+
+    .for-more-info {
+        margin-top: 80px;
+    }
+
+    .for-more-info.acharuli-lobiani {
+        margin-top: 50px;
+    }
+
+    .for-more-info.chicken {
+        margin-top: 45px
+    }
+
+    .for-more-info.beans {
+        margin-top: 50px;
+    }
+
+    .for-more-info button {
+        margin-top: 10px;
+    }
+
+    .go-back button {
+        height: 38px;
+        padding: 0 15px
+    }
+
+    header nav.active a {
+        padding: 33px;
+    }
+
+}
+
+
+@media screen and (max-width: 310px) {
+    .food-img-container img {
+        width: 180px;
+    }
+
+    .food-detail-info h1 {
+        font-size: 17px;
+        height: 50px;
+        padding-inline: 5px;
+    }
+
+    .food-detail-info p {
+        font-size: 13px;
+    }
+
+    .food-detail-info {
+        width: 180px;
+        height: 600px;
+    }
+
+    .for-more-info span {
+        font-size: 11px;
+    }
+
+    .for-more-info button {
+        font-size: 13px;
+    }
+
+    header nav.active a {
+        padding: 26px;
+    }
+
+    .for-more-info {
+        margin-top: 55px;
+    }
+
+    .for-more-info.khinkali {
+        margin-top: 15px;
+    }
+
+    .for-more-info.khachapuri {
+        margin-top: 40px;
+    }
+
+    .for-more-info.acharuli-lobiani {
+        margin-top: 40px;
+    }
+
+    .for-more-info.beans {
+        margin-top: 45px;
+    }
+
+
+
+}

@@ -1,0 +1,135 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/2567134.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/******* Header Style *******/
+
+header {
+    background: linear-gradient(45deg, rgba(19, 18, 18, 0.74), rgba(24, 24, 23, 0.753));
+}
+
+nav a:hover {
+    color: rgba(248, 248, 4, 0.863);
+    font-size: 38px;
+}
+
+/******* And Of Header Style *******/
+
+/******* Food Detail Section Style *******/
+
+.food-info-container {
+    height: calc(100vh - 230px);
+    background-color: rgba(0, 0, 0, 0.411);
+    min-width: 100%;
+}
+
+.food-img-container img {
+    width: 750px;
+    border-radius: 10px;
+    border: 15px ridge white;
+    min-height: 100%;
+}
+
+.food-info {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 50px 50px;
+    min-height: 540px;
+}
+
+.food-detail-info {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.671), rgba(255, 255, 0, 0.74));
+    border-radius: 200px 20px 20px 20px;
+    border: 0;
+    box-shadow: 2px 2px 12px 2px rgb(7, 6, 6);
+}
+
+
+
+.food-detail-info h1 {
+    letter-spacing: 7px;
+    font-size: 60px;
+    font-weight: normal;
+    color: rgba(248, 247, 247, 0.911);
+}
+
+hr {
+    height: 3px;
+    border: 0;
+    background-color: rgba(248, 247, 247, 0.733);
+}
+
+.food-detail-info p {
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(248, 247, 247, 0.911);
+    padding-inline: 15px;
+}
+
+.go-back {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.go-back button {
+    margin-right: 55px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Love Ya Like A Sister', cursive;
+    box-shadow: 0px 0px 7px 0px rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+.go-back button:hover {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.for-more-info {
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.for-more-info span {
+    color: white;
+    font-size: 15px;
+}
+
+.for-more-info img {
+    width: 20px;
+    margin-inline: 5px;
+    position: absolute;
+    top: 25%;
+}
+
+.for-more-info button {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.671), rgba(255, 255, 0, 0.74));
+    color: white;
+    box-shadow: 2px 2px 12px 2px rgb(7, 6, 6);
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 40px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.for-more-info button:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.192), rgba(255, 255, 0, 0.541));
+}
+
+/******* And Off Food Detail Section Style *******/

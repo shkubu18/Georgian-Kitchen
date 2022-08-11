@@ -1,0 +1,215 @@
+/******* Leptops *******/
+
+@media screen and (max-width: 1040px) {
+    .welcome-container {
+        width: 750px;
+        height: 495px;
+    }
+
+    .hint-arrow {
+        height: 60px;
+    }
+
+    .hint-arrow img {
+        height: 90px;
+    }
+
+}
+
+
+@media screen and (max-width: 785px) {
+    .welcome-container {
+        width: 400px;
+        height: 395px;
+    }
+
+    .welcome-info h1 {
+        font-size: 30px;
+    }
+
+    .hint-div p {
+        font-size: 25px;
+    }
+
+    .hint-arrow img {
+        height: 65px;
+    }
+
+    .button-container button {
+        height: 37px;
+        padding-inline: 10px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .footer-container p {
+        height: 100px;
+        overflow: scroll;
+    }
+}
+
+
+
+@media screen and (max-width: 455px) {
+
+    .mobile-menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+
+    header>.header-container {
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    header nav.active {
+        display: flex;
+        position: absolute;
+        background: linear-gradient(45deg, black, rgb(63, 63, 62));
+        width: 100%;
+        top: 0;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+
+    header nav.active a {
+        display: block;
+        text-align: center;
+        padding: 30px;
+        border-bottom: 1px solid white;
+        margin: 0;
+        font-size: 28px;
+        color: white;
+    }
+
+    header nav.active a:hover {
+        color: rgb(253, 182, 49);
+    }
+
+    .welcome-container {
+        width: 300px;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .welcome-container h1 {
+        font-size: 23px;
+        padding-inline: 25px;
+    }
+
+    .welcome-info p {
+        font-size: 18px;
+        padding-inline: 15px;
+    }
+
+    .hint-arrow img {
+        height: 85px;
+    }
+
+    .button-container {
+        margin-top: 60px
+    }
+
+    .button-container button {
+        height: 28px;
+        font-size: 15px;
+    }
+
+    .footer-container p {
+        height: 100px;
+        overflow: scroll;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .welcome-container {
+        width: 250px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .welcome-container h1 {
+        font-size: 23px;
+        padding-inline: 25px;
+    }
+
+    .welcome-info p {
+        font-size: 18px;
+        padding-inline: 15px;
+    }
+
+    .hint-arrow img {
+        height: 50px;
+    }
+
+    .button-container {
+        margin-top: 10px
+    }
+
+}
+
+
+@media screen and (max-width: 280px) {
+    header .restaurant-icon {
+        width: 40px;
+    }
+
+    header nav.active a {
+        padding: 17px;
+    }
+
+    header .mobile-menu span {
+        font-size: 25px;
+    }
+
+    .welcome-container {
+        width: 140px;
+        height: 250px;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+
+    .welcome-container h1 {
+        font-size: 14px;
+        padding-inline: 25px;
+    }
+
+    .welcome-info p {
+        font-size: 12px;
+        padding-inline: 15px;
+    }
+
+    .hint-arrow img {
+        height: 35px;
+    }
+
+    .button-container {
+        margin-top: 0;
+    }
+
+    .button-container button {
+        height: 20px;
+        font-size: 10px;
+        padding-block: 0;
+    }
+
+}
+
+@media screen and (max-height: 670px) {
+    .home-container {
+        margin-bottom: 50px;
+    }
+}

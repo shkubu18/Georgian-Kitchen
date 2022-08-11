@@ -1,0 +1,84 @@
+/******* Help Section Style *******/
+
+body {
+    background: linear-gradient(45deg, rgb(252, 242, 223), rgb(247, 247, 211));
+}
+
+.container {
+    padding: 60px 60px;
+}
+
+.help-h1 {
+    font-weight: 600;
+    letter-spacing: 7px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+   }
+   
+   
+   .accordion-header img {
+       width: 15px;
+       transition: transform 0.5s ease-in;
+   }
+   
+   .accordion-header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       font-size: 25px;
+       font-weight: 500;
+       padding: 10px 15px;
+       border-top: 3px solid white;
+       border-bottom: 0;
+   }
+
+   .accordion-header img.active{
+        transform: rotate(180deg);
+   }
+   
+   .accordion-container {
+       border: 3px solid white;
+       border-top: 0;
+       border-radius: 5px;
+       margin-bottom: 25px;
+   }
+   
+   .accordion-body {
+       font-size: 17px;
+       max-height: 0;
+       padding-inline: 20px;
+       overflow: scroll;
+       transition: max-height 1.3s ease;
+   }
+   
+   .accordion-item.active .accordion-header {
+       border-bottom: 3px solid white;
+   }
+   
+    .accordion-body.active  {
+       max-height: 144px;
+       padding-inline: 20px;
+   }
+   
+   .accordion-header:hover {
+       background-color: rgba(252, 250, 141, 0.856);
+       cursor: pointer;
+   }
+
+/**** Footer Style ****/
+
+   footer {
+    background: rgba(0, 0, 0, 0.842);
+   }
+
+/**** And Off Footer Style ****/
+
+
+/******* And Off Help Section Style *******/
+   
+   
+   
+   
+   
